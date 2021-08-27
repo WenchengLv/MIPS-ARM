@@ -1,0 +1,34 @@
+# do MyProject.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dividebyFSM
+# 
+# Top level modules:
+# 	dividebyFSM
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dividebyFSM_vlg_sample_tst
+# -- Compiling module dividebyFSM_vlg_check_tst
+# -- Compiling module dividebyFSM_vlg_vec_tst
+# 
+# Top level modules:
+# 	dividebyFSM_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.dividebyFSM_vlg_vec_tst 
+# Loading work.dividebyFSM_vlg_vec_tst
+# Loading work.dividebyFSM
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_clkctrl
+# Loading cycloneiii_ver.cycloneiii_mux41
+# Loading cycloneiii_ver.cycloneiii_ena_reg
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.dividebyFSM_vlg_sample_tst
+# Loading work.dividebyFSM_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port y :: @time = 1200000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           1 mismatched vectors : Simulation failed !
+# ** Note: $finish    : divideby3FSM.vwf.vt(151)
+#    Time: 10 us  Iteration: 0  Instance: /dividebyFSM_vlg_vec_tst/tb_out
